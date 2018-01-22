@@ -98,7 +98,7 @@ def main():
     try:
         {"work": work, "play": play}[sys.argv[1]]()
     except KeyError:
-        exit_error('usage: ' + sys.argv[0] + ' [work|play]')	
+        exit_error('usage: ' + sys.argv[0] + ' [work|play]')
 
 if __name__ == "__main__":
     main()
